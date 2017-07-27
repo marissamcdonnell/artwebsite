@@ -357,8 +357,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	input,
 	select,
 	textarea {
-		color: #1a1a1a;
-		font-family: Merriweather, Georgia, serif;
+		color: #3a3a3a;
+		font-family: Comfortaa, calbiri, sans-serif;
 		font-size: 16px;
 		font-size: 1rem;
 		line-height: 1.75;
@@ -370,6 +370,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	h4,
 	h5,
 	h6 {
+        font-family: bellefair, Serif;
 		clear: both;
 		font-weight: 700;
 		margin: 0;
@@ -786,14 +787,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
  */
 
 	a {
-		color: #007acc;
+		color: #53C9A2;
 		text-decoration: none;
 	}
 
 	a:hover,
 	a:focus,
 	a:active {
-		color: #686868;
+		color: #53C9A2;
 	}
 
 	a:focus {
@@ -843,7 +844,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 		-webkit-flex: 0 1 100%;
 		-ms-flex: 0 1 100%;
 		flex: 0 1 100%;
-		margin: 0.875em 0;
+		margin: 0.5em 0;
 	}
 
 	.site-header-menu.toggled-on,
@@ -852,7 +853,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	}
 
 	.main-navigation {
-		font-family: Montserrat, "Helvetica Neue", sans-serif;
+		font-family: Comfortaa, Calibri, sans-serif;
 	}
 
 	.site-footer .main-navigation {
@@ -870,7 +871,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	}
 
 	.main-navigation a {
-		color: #1a1a1a;
+		color: #3A3A3A;
 		display: block;
 		line-height: 1.3125;
 		outline-offset: -1px;
@@ -889,7 +890,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 	.main-navigation ul ul {
 		display: none;
-		margin-left: 0.875em;
+		margin-left: 0.5em;
 	}
 
 	.no-js .main-navigation ul ul {
@@ -905,22 +906,22 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	}
 
 	.main-navigation .menu-item-has-children > a {
-		margin-right: 56px;
+		margin-right: 80px;
 	}
 
 	.dropdown-toggle {
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
-		color: #1a1a1a;
+		color: #3A3A3A;
 		content: "";
-		height: 48px;
+		height: 20px;
 		padding: 0;
 		position: absolute;
 		right: 0;
 		text-transform: none;
 		top: 0;
-		width: 48px;
+		width: 10px;
 	}
 
 	.dropdown-toggle:after {
@@ -928,9 +929,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 		border-left-width: 1px;
 		content: "\f431";
 		font-size: 24px;
-		left: 1px;
+		left: 10px;
 		position: relative;
-		width: 48px;
+		width: 32px;
 	}
 
 	.dropdown-toggle:hover,
@@ -1603,13 +1604,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
  */
 
 	.site-header {
-		padding: 2.625em 7.6923%;
+        padding: 2.625em 7.6923%;
 	}
 
 	.site-header-main {
-		-webkit-align-items: center;
-		-ms-flex-align: center;
-		align-items: center;
+		-webkit-align-items: flex-start;
+		-ms-flex-align: start;
+		align-items: flex-start;
 		display: -webkit-flex;
 		display: -ms-flexbox;
 		display: flex;
@@ -3017,7 +3018,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 		}
 
 		.main-navigation {
-			margin: 0 -0.875em;
+			margin: 0 -1.875em;
 		}
 
 		.main-navigation .primary-menu,
@@ -3037,7 +3038,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 		.main-navigation li:hover > a,
 		.main-navigation li.focus > a {
-			color: #39cc4f;
+			color: #3A3A3A;
+            text-transform: uppercase;
+            background-color: #53C9A2;
 		}
 
 		.main-navigation ul ul {
@@ -3060,7 +3063,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 		.main-navigation ul ul li {
 			background-color: #fff;
-			border: 1px solid #d1d1d1;
+			border: 1px solid #2E8776;
 			border-bottom-width: 0;
 		}
 
@@ -3077,7 +3080,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 		}
 
 		.main-navigation ul ul:before {
-			border-color: #d1d1d1 transparent;
+			border-color: #2E8776 transparent;
 			border-width: 0 10px 10px;
 			right: 9px;
 			top: -9px;
